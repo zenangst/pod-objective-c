@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
   s.name             = "<PODNAME>"
   s.summary          = "A short description of <PODNAME>."
   s.version          = "0.1"
-  s.homepage         = "https://github.com/hyperoslo/<PODNAME>"
+  s.homepage         = "https://github.com/zenangst/<PODNAME>"
   s.license          = 'MIT'
-  s.author           = { "Hyper AS" => "teknologi@hyper.no" }
-  s.source           = { :git => "https://github.com/hyperoslo/<PODNAME>.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/hyperoslo'
+  s.author           = { "Christoffer Winterkvist" => "christoffer@winterkvist.com" }
+  s.source           = { :git => "https://github.com/zenangst/<PODNAME>.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/zenangst'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
